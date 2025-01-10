@@ -15,10 +15,12 @@ Consigli del giorno:
 for (let i = 1; i < 100; i++) {
 
     // ----------TASK 2----------
-    // riconoscimento specificità delle condizioni per evitare che con l'effetto a cascata vengano ignorate
+    // riconoscimento priorità e specificità delle condizioni 
+    // per evitare che con l'effetto a cascata vengano ignorate
 
     // una volta dentro al ciclo parto con le condizioni per cui il numero selezionato deve dare in console una stampa diversa, 
     // tenendo SEMPRE conto del fatto che in generale negli IF funziona PRIMA la condizione piu SPECIFICA e poi quella piu GENERALE
+
     // situazione piu specifica di partenza, con entrambe (&&) le condizioni true
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
