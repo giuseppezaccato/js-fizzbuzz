@@ -12,13 +12,13 @@ Consigli del giorno:
 // * fare partire il ciclo da 1 a 100
 
 
-for (let i = 1; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     // ! ----------TASK 2----------
     // * riconoscimento priorità e specificità delle condizioni 
     // * per evitare che con l'effetto a cascata vengano ignorate
 
-    // ? una volta dentro al ciclo parto con le condizioni per cui il numero selezionato deve dare in console una stampa diversa, 
+    // ? una volta dentro al ciclo parto con le condizioni (usando il modulo di selezione %) per cui il numero selezionato deve dare in console una stampa diversa, 
     // ? tenendo SEMPRE conto del fatto che in generale negli IF funziona PRIMA la condizione piu SPECIFICA e poi quella piu GENERALE
 
     // todo  situazione piu specifica di partenza, con entrambe (&&) le condizioni true
